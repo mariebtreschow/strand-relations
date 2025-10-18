@@ -1,4 +1,49 @@
-🤝 Välkommen till Strand Relations AI Matchmaker!
+# 🤝 Strand Relations AI Matchmaker
+
+## 📋 Installation
+
+### Förutsättningar
+- Python 3.7 eller senare
+- pip (Python package installer)
+
+### Installera paket
+
+**1. Skapa och aktivera virtuell miljö:**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+**2. Installera paket:**
+```bash
+pip install pandas numpy openpyxl
+```
+
+Eller installera från requirements.txt:
+```bash
+pip install -r requirements.txt
+```
+
+## 🚀 Kör programmet
+
+**1. Aktivera virtuell miljö (om inte redan aktiverad):**
+```bash
+source .venv/bin/activate
+```
+
+**2. Kör scriptet:**
+```bash
+python matchmaking.py
+```
+
+**3. Deaktivera virtuell miljö när du är klar:**
+```bash
+deactivate
+```
+
+---
+
+## 🎯 Om programmet
 🎯 Tillgängliga specialiseringar:
    • Aktivitet
    • Digital

@@ -113,7 +113,7 @@ def skapa_kund_behov_interaktivt():
     print("=" * 50)
     
     # Visa tillgängliga specialiseringar
-    matchmaker = ByraMatchmaker('AI Verktyg- Byråer.xlsx')
+    matchmaker = ByraMatchmaker('ai_verktyg_byraer.xlsx')
     matchmaker.visa_tillgangliga_specialiseringar()
     
     # Samla in kundbehov
@@ -148,7 +148,7 @@ def main():
     """Huvudfunktion för att köra matchmakern"""
     try:
         # Initiera matchmaker
-        matchmaker = ByraMatchmaker('AI Verktyg- Byråer.xlsx')
+        matchmaker = ByraMatchmaker('ai_verktyg_byraer.xlsx')
         
         # Samla in kundbehov
         kund_behov = skapa_kund_behov_interaktivt()
