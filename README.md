@@ -26,20 +26,38 @@ pip install -r requirements.txt
 
 ## 🚀 Kör programmet
 
-**1. Aktivera virtuell miljö (om inte redan aktiverad):**
+### Version 1: Med Excel-fil (Lokal)
 ```bash
+# Aktivera virtuell miljö
 source .venv/bin/activate
-```
 
-**2. Kör scriptet:**
-```bash
+# Kör scriptet med Excel-fil
 python matchmaking.py
-```
 
-**3. Deaktivera virtuell miljö när du är klar:**
-```bash
+# Deaktivera virtuell miljö
 deactivate
 ```
+
+### Version 2: Med Google Sheets (Rekommenderat)
+```bash
+# Aktivera virtuell miljö
+source .venv/bin/activate
+
+# Följ setup-guiden för Google Sheets
+# Se GOOGLE_SHEETS_SETUP.md för detaljerade instruktioner
+
+# Kör scriptet med Google Sheets
+python matchmaking_google_sheets.py
+
+# Deaktivera virtuell miljö
+deactivate
+```
+
+## 📊 Datahantering
+
+- **Excel-version**: Använder lokal `ai_verktyg_byraer.xlsx` fil
+- **Google Sheets-version**: Laddar data direkt från [din Google Sheet](https://docs.google.com/spreadsheets/d/1eyahA1utzpFzAFjJylmJwOx1y0s4Sa0yBwMgb5O7N-M/edit)
+- **Fördelar med Google Sheets**: Automatiska uppdateringar, ingen lokal filhantering, bättre samarbete
 
 ---
 
